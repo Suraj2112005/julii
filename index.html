@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💌 Ek Tarfa Love Certificate</title>
+  <style>
+    body {
+      background: #fff6f9;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 40px;
+      color: #4d4d4d;
+    }
+
+    .certificate {
+      border: 8px dashed #ff69b4;
+      padding: 40px;
+      border-radius: 25px;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      max-width: 750px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #ff3399;
+      font-size: 32px;
+    }
+
+    h2 {
+      margin: 20px 0;
+      font-size: 26px;
+      color: #cc0066;
+    }
+
+    .names {
+      font-size: 22px;
+      margin-top: 25px;
+      color: #444;
+    }
+
+    .declaration {
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .signatures {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .sig {
+      border-top: 1px solid #000;
+      width: 150px;
+      padding-top: 5px;
+    }
+
+    .footer {
+      margin-top: 50px;
+      color: #999;
+      font-size: 14px;
+    }
+
+    .confetti {
+      font-size: 30px;
+      animation: float 2s infinite alternate;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #ff66b2;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #d9006c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🎵 Music -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="certificate">
+    <div class="confetti">🌸💌🌸</div>
+    <h1>Ek Tarfa Love Certificate</h1>
+    <h2>Presented with ❤️ and gentle humour to</h2>
+
+    <div class="names">
+      <strong>Anushka</strong><br>
+      (on behalf of her historic onscreen pairing with...)<br>
+      <strong>Tajesh</strong> 🕊️
+    </div>
+
+    <div class="declaration">
+      Iss dosti ne kabhi *"commitment ka rang nahi dekha"*<br>
+      par emotions toh sach-much *Tajushka vibes* le aaye the 😇
+    </div>
+
+    <div class="signatures">
+      <div class="sig">Anushka</div>
+      <div class="sig">Tajesh</div>
+    </div>
+
+    <p class="declaration" style="margin-top: 25px;">
+      Certified by: <strong>Suraj (TanSu Survivor 💪)</strong><br>
+      Who now respectfully returns the favour 😄
+    </p>
+
+    <button class="btn" onclick="playMusic()">🎵 Pookie Click Karo – Music Shuru!</button>
+
+    <p class="footer">
+      Created with ❤️ and fun | No feelings were harmed 😂<br>
+      © 2025 | Friendship Ministry of India 🇮🇳
+    </p>
+  </div>
+
+  <script>
+    function playMusic() {
+      const audio = document.getElementById("bgMusic");
+      audio.play();
+      alert("Pookie... music bhi chal gaya, mazaak bhi ho gaya 😄");
+    }
+  </script>
+
+</body>
+</html>
